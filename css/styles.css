@@ -87,3 +87,48 @@ main {
     font-size: 0.8rem;
     font-weight: 600;
 }
+
+/* Contenedor de botones de contacto */
+.perfil-contacto {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+/* Estilo base para los botones */
+.btn-contacto {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Efecto al pasar el mouse por encima */
+.btn-contacto:hover {
+    transform: translateY(-1px);
+}
+
+/* Estilo distintivo para LinkedIn (Azul institucional) */
+.btn-contacto.linkedin {
+    background-color: #0a66c2;
+    color: #ffffff;
+}
+
+.btn-contacto.linkedin:hover {
+    background-color: #084e96;
+}
+
+/* Estilo distintivo para Correo (Gris oscuro elegante) */
+.btn-contacto.email {
+    background-color: #334155;
+    color: #ffffff;
+}
+
+.btn-contacto.email:hover {
+    background-color: #1e293b;
+}
